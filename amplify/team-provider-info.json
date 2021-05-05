@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bobadaddybackend-dev-201709-authRole",
+      "UnauthRoleArn": "arn:aws:iam::833522282239:role/amplify-bobadaddybackend-dev-201709-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::833522282239:role/amplify-bobadaddybackend-dev-201709-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-bobadaddybackend-dev-201709-deployment",
+      "UnauthRoleName": "amplify-bobadaddybackend-dev-201709-unauthRole",
+      "StackName": "amplify-bobadaddybackend-dev-201709",
+      "StackId": "arn:aws:cloudformation:us-west-2:833522282239:stack/amplify-bobadaddybackend-dev-201709/d5f1ae90-74c4-11eb-b31f-02b5c6242747",
+      "AmplifyAppId": "drudzmqrudp3m"
+    },
+    "categories": {
+      "auth": {
+        "bobaDaddyUsersUP": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drudzmqrudp3m",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

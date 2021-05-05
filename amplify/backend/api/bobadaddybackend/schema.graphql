@@ -1,0 +1,41 @@
+type bobaUser @model(timestamps:{createdAt: "createdOn", updatedAt: "updatedOn"}) {
+  authenticated: Boolean!
+  confirmed: Boolean!
+  email: String!
+  favorites: [String]!
+  firstName: String!
+  secondaryId: String!
+  id: String!
+  lastName: String!
+  phoneNumber: String!
+  review: [String]!
+}
+
+type bobaReview @model(timestamps:{createdAt: "createdOn", updatedAt: "updatedOn"}) {
+  id: String!
+  bobaShopId: String!
+  bobaUserId: String!
+  rating: Float!
+  Description: String!
+}
+
+type bobaShop @model(timestamps:{createdAt: "createdOn", updatedAt: "updatedOn"}) {
+  address: String!
+  coordinates: [Float!]
+  id: String!
+  secondaryId: String!
+  img: String!
+  reviewsCount: Int!
+  userReviews: [String!]!
+  rating: Float!
+  weeklyRating: Float!
+}
+
+type Miscellaneous @model(timestamps:{createdAt: "createdOn", updatedAt: "updatedOn"}) {
+  id: String!
+  new_update: Boolean
+  new_version: String
+  lock: Boolean
+  lock_message: String
+  announcement: String
+}
